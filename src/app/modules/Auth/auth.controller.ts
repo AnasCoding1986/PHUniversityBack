@@ -66,7 +66,7 @@ const resetPassword = catchAsync(async (req, res) => {
   const token = req.headers.authorization;
 
   if (!token) {
-    throw new AppError(httpStatus.BAD_REQUEST, 'Something went wrong !');
+    throw new AppError(httpStatus.BAD_REQUEST, 'Something new journey 2 went wrong !');
   }
 
   const result = await AuthServices.resetPassword(req.body, token);
