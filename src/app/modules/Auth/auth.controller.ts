@@ -57,7 +57,7 @@ const forgetPassword = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Reset link is generated new journey 1, nj 2, succesfully!',
+    message: 'Reset link is generated new journey 1, nj 2, nj typeScript succesfully!',
     data: result,
   });
 });
